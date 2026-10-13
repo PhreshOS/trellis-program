@@ -4,7 +4,7 @@ export default defineConfig({
     identity: "trellis",
     name: "Trellis",
     description: "A board to sketch on, for people and agents alike.",
-    version: "0.5.0",
+    version: "0.1.0",
     // Drawn from icon.svg: an easel, and on its board a drawn box like a planting bed, a sprout rising from it.
     icon: "icon.png",
     categories: ["Productivity"],
