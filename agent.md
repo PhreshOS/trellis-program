@@ -5,6 +5,9 @@ they like. A board is its file. Trellis keeps no copy of its own: what it shows 
 what the file holds, and what is drawn is written back to the file a moment
 later. Every window and agent on the same file sees one board.
 
+Every request here is an Execute request: a JSON object the System understands
+as it is.
+
 ## The simplest way: write the file
 
 Write or edit the file itself, as JSON. While the file is open in Trellis, what
