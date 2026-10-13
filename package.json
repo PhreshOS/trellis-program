@@ -1,0 +1,47 @@
+{
+    "name": "trellis",
+    "private": true,
+    "version": "0.5.0",
+    "description": "A board to sketch on, for people and agents alike, drawn with Excalidraw.",
+    "type": "module",
+    "scripts": {
+        "dev": "phresh dev",
+        "start": "phresh start",
+        "pack": "phresh pack",
+        "check": "tsc --noEmit",
+        "build": "vite-node scripts/build.ts",
+        "test": "vitest run",
+        "verify": "node --run check && node --run build && node --run test"
+    },
+    "keywords": [
+        "phreshos",
+        "program",
+        "whiteboard",
+        "excalidraw",
+        "trellis"
+    ],
+    "dependencies": {
+        "@excalidraw/excalidraw": "^0.18.1",
+        "@phreshos/client": "^0.7.0",
+        "@phreshos/core": "^0.7.0",
+        "@phreshos/react": "^0.7.0",
+        "@phreshos/react-ui": "^0.7.0",
+        "@phreshos/server": "^0.7.0",
+        "react": "^19.2.8",
+        "react-dom": "^19.2.8"
+    },
+    "devDependencies": {
+        "@babel/core": "^8.0.6",
+        "@phreshos/cli": "^0.7.0",
+        "@rolldown/plugin-babel": "^0.2.4",
+        "@types/node": "^26.4.0",
+        "@types/react": "^19.2.18",
+        "@types/react-dom": "^19.2.5",
+        "@vitejs/plugin-react": "^6.1.1",
+        "babel-plugin-react-compiler": "^1.0.0",
+        "typescript": "^7.0.2",
+        "vite": "^8.2.2",
+        "vite-node": "^6.0.0",
+        "vitest": "^4.1.10"
+    }
+}

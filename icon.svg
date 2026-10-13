@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="1024" height="1024">
+    <!-- Board: an easel holding a light board, and on it a drawn box like a planting bed: from the middle
+         of its top a sprout rises and leans a little to the right, under its own weight. -->
+    <defs>
+        <linearGradient id="board" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffaf1"/><stop offset="1" stop-color="#f3dcb8"/></linearGradient>
+        <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f9b25c"/><stop offset="1" stop-color="#e2792c"/></linearGradient>
+        <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8fdc8f"/><stop offset="1" stop-color="#2f8f45"/></linearGradient>
+        <linearGradient id="green-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bdeca8"/><stop offset="1" stop-color="#58b566"/></linearGradient>
+    </defs>
+    <path d="M44 96l-12 24M84 96l12 24M64 96v22" stroke="url(#wood)" stroke-width="7" stroke-linecap="round"/>
+    <rect x="14" y="14" width="100" height="84" rx="14" fill="url(#board)" stroke="url(#wood)" stroke-width="6"/>
+    <path d="M48 64c10-1 22-1 32 1 1 6 1 13-1 20-10 1-21 1-31-1-1-6-1-13 0-20z" fill="#f6e3c6" stroke="#5a3622" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M64 64C64 54 65 46 71 39" fill="none" stroke="#3f9c50" stroke-width="4.5" stroke-linecap="round"/>
+    <g transform="translate(71 39) scale(1.35) translate(-71 -39)">
+        <path d="M71 39c-3-7-9-9-14-5 3 6 8 8 14 5z" fill="url(#green)"/>
+        <path d="M72 37c3-8 10-10 15-6-3 7-9 9-15 6z" fill="url(#green-light)"/>
+    </g>
+</svg>
